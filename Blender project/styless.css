@@ -1,0 +1,111 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.main{
+    height: 500px;
+    width: 100%;
+    background-color: bisque;
+}
+#wrapper{
+height: 100vh;
+width:100%;
+background-color:#c0cBE4;
+display: flex;
+
+justify-content: space-evenly;
+font-family: sans-serif;
+white-space: nowrap;
+
+
+
+}
+#card1{
+    display: inline-block;
+    flex-direction: column;
+width: 40%;
+height: 70%;
+border: 1px solid gray;
+border-radius: 1rem;
+margin: 0 1rem;
+white-space: normal;
+background-color: #c0cBE4;
+transform: translateX(20%);
+}
+#card1:hover{
+    border: 1px solid black;
+}
+
+#insideCard{
+width: 100%;
+height: 55%;
+border: 1px solid gray;
+border-radius: 1rem;
+position: relative;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+#insideCard img{
+    height: 90%;
+    width: 90%;
+    object-fit: fill;
+    border-radius: 1rem;
+}
+
+
+#insideCard:hover{
+    border: 2px solid rgb(16, 16, 16);
+    transform: scale(1.03);
+    transition: 0.5s;
+    box-shadow: 50px black;
+}
+
+
+#insideCard:hover{
+    border: 1px solid black;
+}
+.textC{
+    font-family: matter;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+
+}
+.textD{
+    font-family: matter;
+    font-size: 1.1rem;
+}
+
+.card_footer{
+
+
+
+width: 100%;
+height: 15%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 2rem;
+
+
+
+}
+a{
+    color: rgb(28, 27, 27);
+    opacity: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+#card1:hover a{
+    text-decoration: underline;
+}
